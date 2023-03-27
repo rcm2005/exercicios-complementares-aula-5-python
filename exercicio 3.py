@@ -1,14 +1,21 @@
-i = 1    #inserindo as variaveis que indicam quantos aneis de cada tipo sao necessarios para 
+i = 1.0    #inserindo as variaveis que indicam quantos aneis de cada tipo sao necessarios para 
           #uma galinha
-a = 2
+a = 2.0
 
-numero = input("digite o numero de galinhas totais: ")
+
+numero = float(input("digite o numero de galinhas totais: "))
 #solicitação do numero total de galinhas para a operação
 
-custoi = int(0.40)   #+ custo de cada anel individual
-custoa = int(0.35)
+custoi = 0.40   #+ custo de cada anel individual
+custoa = 0.35
 
 
 custounidade = (custoi * i) + (custoa * a) #custo para uma galinha
 
-custotal = custounidade * numero
+custotal = float(custounidade * numero)
+
+custofinal = round(custotal, 2)    #para arrendondar o custo total em 2 casas decimais
+
+
+print (f'o custo total será de R$ {custofinal}')
+
