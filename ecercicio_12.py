@@ -12,3 +12,4 @@ areatotal = paredesmaiores + paredesmenores #calculando a area total somando as 
 qntcaixas = areatotal / caixa   #descobrindo a quantidade total de caixas que serão necessárias
 
 print(qntcaixas)
+print("No caso de o resultado possua casa decimal, compre uma caixa a mais.")

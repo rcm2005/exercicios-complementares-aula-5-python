@@ -21,3 +21,6 @@ cem = n + v + b
 
 
 print (f'os votos nulos são {nf}%, os válidos {vf}% e os em branco {bf}%.')
+
+
+

@@ -14,4 +14,4 @@ valortotal = valorcustofab + valorimposto + valordistrib   #descobrindo valor to
 
 valortotalr = round(valortotal, 2)        #arredondando o preço do custo do carro
 
-print(f'O custo ao consumidor do carro é {valortotal}')   #mostrando ao usuário o custo final a ser pago
+print(f'O custo ao consumidor do carro é {valortotalr}')   #mostrando ao usuário o custo final a ser pago

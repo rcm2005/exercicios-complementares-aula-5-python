@@ -6,8 +6,8 @@ a = 2.0
 numero = float(input("digite o numero de galinhas totais: "))
 #solicitação do numero total de galinhas para a operação
 
-custoi = 0.40   #+ custo de cada anel individual
-custoa = 0.35
+custoi = float(0.40)   #+ custo de cada anel individual
+custoa = float(0.35)
 
 
 custounidade = (custoi * i) + (custoa * a) #custo para uma galinha
@@ -18,4 +18,5 @@ custofinal = round(custotal, 2)    #para arrendondar o custo total em 2 casas de
 
 
 print (f'o custo total será de R$ {custofinal}')
+print("No caso de o resultado possua casa decimal, compre uma caixa a mais.")
 
